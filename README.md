@@ -1,4 +1,4 @@
-# Projeto de ciclo 2 do Alpha Edtech: Classificação de Pontuação de Crédito
+# Projeto de Ciclo - Alpha Edtech: Classificação de Pontuação de Crédito
 
 ## Descrição do Projeto
 
