@@ -1,0 +1,9 @@
+# Ignorar a pasta .venv
+.venv/
+
+# Ignorar arquivos de treino e teste
+App_streamlit/data/train.csv
+App_streamlit/data/test.csv
+
+# Ignorar diretórios de cache
+__pycache__/
