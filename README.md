@@ -61,6 +61,12 @@ A análise do projeto inclui a construção de dois modelos de aprendizado de m�
    ```
 3. Execute o notebook de treinamento no Google Colab:
    - Abra o arquivo `treinamento_modelos.ipynb` no Google Colab e execute as células conforme instruído.
+4. Adicione os dados de treinamento:
+   - Coloque o de dados de treinamento na pasta data (ModelosKNN-SVM\App_streamlit\data). Certifique-se de que o arquivo esteja formatado corretamente para uso na aplicação.  
+5. Execute a aplicação Streamlit: No terminal, ainda dentro da pasta do repositório, execute:
+   ```bash
+   streamlit run app/main.py
+   ```
 
 ## Métricas de Avaliação Utilizadas
 
