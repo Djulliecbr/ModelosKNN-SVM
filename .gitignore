@@ -3,3 +3,6 @@
 
 # Ignorar diretórios de cache
 __pycache__/
+
+test.csv
+train.csv
