@@ -58,9 +58,11 @@ A análise do projeto inclui a construção de dois modelos de aprendizado de m�
    ```bash
    pip install -r requirements.txt
    ```
+
 3. Execute o aplicativo Streamlit a partir da pasta App_streamlit
     ```bash
    streamlit run App.py
+
    ```
 
 ## Métricas de Avaliação Utilizadas
