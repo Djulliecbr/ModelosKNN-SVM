@@ -33,15 +33,14 @@ A análise do projeto inclui a construção de dois modelos de aprendizado de m�
      - **Acurácia**
      - **Precisão, Recall e F1-Score**
      - **Matriz de Confusão**
-     - **Curva ROC e AUC**
-     - **Log-loss ou Binary Cross-Entropy** (se aplicável)
+     - **Curva AUC ROC**
 
 4. **Interpretação dos Resultados**
    - Análise das variáveis mais importantes que impactam cada modelo.
    - Verificação de overfitting utilizando cross-validation.
 
 5. **Ajuste de Hiperparâmetros**
-   - Utilização de técnicas como Grid Search, Random Search, ou Bayesian Optimization para aprimorar o desempenho dos modelos.
+   - Utilização de técnicas como Grid Search e Random Search  para aprimorar o desempenho dos modelos.
      
 ## Tecnologias Utilizadas
 
@@ -53,14 +52,16 @@ A análise do projeto inclui a construção de dois modelos de aprendizado de m�
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seuusuario/nome-do-repositorio.git
+   git clone git@github.com:Djulliecbr/ModelosKNN-SVM.git
    ```
 2. Instale as dependências necessárias:
    ```bash
    pip install -r requirements.txt
    ```
-3. Execute o notebook de treinamento no Google Colab:
-   - Abra o arquivo `treinamento_modelos.ipynb` no Google Colab e execute as células conforme instruído.
+3. Execute o aplicativo Streamlit a partir da pasta App_streamlit
+    ```bash
+   streamlit run App.py
+   ```
 
 ## Métricas de Avaliação Utilizadas
 
